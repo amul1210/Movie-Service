@@ -1,0 +1,60 @@
+#spring:
+#  jpa:
+#    database: MYSQL
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: create-drop
+#
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/step2
+#    username: root
+#    password: Password
+#    driverClassName: com.mysql.jdbc.Driver
+#
+server:
+  port: 8080
+
+spring:
+  application:
+    name: movie-server
+#  data:
+#    mongodb:
+#      uri: mongodb://localhost/movie-service
+#      database: movie-service
+#      port: 27017
+#      host: localhost
+  cloud:
+    config:
+      uri: http://localhost:8888
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9090/eureka/
+    register-with-eureka: true
+    fetchRegistry: true
+
+logging:
+  path: logs
+  file: ${logging.path}/log.log
+  level:
+    org.springframework.web: ERROR
+    com.stackroute.movieservice: DEBUG
+
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+
+#    mongo-demo:
+#      image: movie-service:v1
+#      build: movie-service/
+#      restart: always
+#      network_mode: host
+#      container_name: mongo-demo-compose
+#      depends_on:
+#      - mongodb
+#      ports:
+#      - 8080:8080
+#      expose:
+#      - 8080

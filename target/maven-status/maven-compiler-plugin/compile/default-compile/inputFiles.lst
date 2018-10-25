@@ -1,0 +1,11 @@
+/home/cgi/Desktop/MovieMicroservicesApp/movie-service/src/main/java/com/stackroute/movieservice/MovieServicesApplication.java
+/home/cgi/Desktop/MovieMicroservicesApp/movie-service/src/main/java/com/stackroute/movieservice/domain/Movies.java
+/home/cgi/Desktop/MovieMicroservicesApp/movie-service/src/main/java/com/stackroute/movieservice/controller/MovieController.java
+/home/cgi/Desktop/MovieMicroservicesApp/movie-service/src/main/java/com/stackroute/movieservice/exceptions/MovieNotFoundException.java
+/home/cgi/Desktop/MovieMicroservicesApp/movie-service/src/main/java/com/stackroute/movieservice/configuration/SwaggerConfig.java
+/home/cgi/Desktop/MovieMicroservicesApp/movie-service/src/main/java/com/stackroute/movieservice/services/MovieServices.java
+/home/cgi/Desktop/MovieMicroservicesApp/movie-service/src/main/java/com/stackroute/movieservice/exceptions/MovieAlreadyExistsException.java
+/home/cgi/Desktop/MovieMicroservicesApp/movie-service/src/main/java/com/stackroute/movieservice/services/MovieServicesImpl2.java
+/home/cgi/Desktop/MovieMicroservicesApp/movie-service/src/main/java/com/stackroute/movieservice/repository/MovieRepository.java
+/home/cgi/Desktop/MovieMicroservicesApp/movie-service/src/main/java/com/stackroute/movieservice/exceptions/EmptyDBException.java
+/home/cgi/Desktop/MovieMicroservicesApp/movie-service/src/main/java/com/stackroute/movieservice/services/MovieServicesImpl.java
